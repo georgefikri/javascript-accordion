@@ -1,0 +1,39 @@
+body {
+    background-color: #d3d3d3;
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#accCont {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    min-height: inherit;
+    padding: 20px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.active div:last-child {
+    display: block!Important;
+    margin:0 0 0 10%;
+}
+
+#accCont div[id*='acc'] , #accCont div[id*='data']{
+    margin: 0 auto 20px;
+}
+
+#accCont div[id*='data'] {
+    width:80%;
+    border:1px solid #000;
+    border-radius: 20px;
+    padding: 10px;
+}
